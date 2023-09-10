@@ -1,0 +1,31 @@
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+
+
+* {
+    box-sizing: border-box;
+        
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-size:16px;
+    font-family: $font-inter;
+    font-weight: $font-weight-regular-400;
+    color: $colour-black;
+        
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+$font-weight-light-300:300;
+$font-weight-regular-400:400;
+$font-weight-medium-500:500;
+$font-weght-semiBold-600:600;
+$font-weight-bold-700:700; */

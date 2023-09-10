@@ -176,7 +176,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass": "node-sass sass/main.scss  css/main.comp.css -w"
+    "compile:sass": "node-sass sass/main.scss  CSS/main.comp.css -w"
   },
   "repository": {
     "type": "git",
