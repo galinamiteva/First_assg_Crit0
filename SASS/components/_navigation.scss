@@ -21,7 +21,7 @@
             .business-info{
                 display: flex;
 
-                >span{
+                .number, .email, .address{
                  font-size: 1.07rem;
                  font-weight: $font-weight-light-300;
                  padding-bottom: 12px;
@@ -36,7 +36,24 @@
                     }
                  
                 }
+                .social-media{
+                    >a {
+                        margin-left: 20px;
+                        font-weight: $font-weight-regular-400;
+                        >i{
+                            color: $colour-black;
+                            width: 20px;
+                            height: 20px;
+                        }                           
+                    }
+
+                }
             }
+            .lower-info{
+                display:flex;
+                justify-content: space-between;
+            }
+
         }
 
     }
@@ -51,20 +68,8 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
+
+
+
+

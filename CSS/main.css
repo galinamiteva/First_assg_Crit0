@@ -20,66 +20,76 @@ body a {
   color: #191919;
 }
 
-.button-beige {
-  padding: 15px 32px;
-  border-radius: 25px;
-  background-color: #F9D783;
-  border: 1px solid #191919;
-  position: relative;
-  transition: all 0.3s ease-in-out;
-}
-.button-beige span {
-  color: #191919;
-  position: relative;
-  top: 5px;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-right: 10px;
-}
-.button-beige.hover {
-  background-color: #191919;
+/* 
+.button-beige {     
+    padding:15px 32px;
+    border-radius: 25px;
+    background-color: $colour-yellow-btn;
+    border : 1px solid $colour-black;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+
+        span{
+            color: $colour-black;            
+            position: relative;    
+            top:5px;
+            font-weight: $font-weght-semiBold-600;
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+        &.hover{
+            background-color: $colour-black;
+
+        }
 }
 
-.button-yellow {
-  padding: 15px 32px;
-  border-radius: 25px;
-  background-color: #F9D783;
-  border: none;
-  position: relative;
-  transition: all 0.3s ease-in-out;
-}
-.button-yellow span {
-  color: #191919;
-  position: relative;
-  top: 5px;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-right: 10px;
-}
-.button-yellow.hover {
-  background-color: #191919;
+
+.button-yellow {     
+    padding:15px 32px;
+    border-radius: 25px;
+    background-color: $colour-yellow-btn;
+    border : none;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+
+        span{
+            color: $colour-black;            
+            position: relative;    
+            top:5px;
+            font-weight: $font-weght-semiBold-600;
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+        &.hover{
+            background-color: $colour-black;
+
+        }
 }
 
-.button-black {
-  padding: 15px 32px;
-  border-radius: 25px;
-  background-color: #191919;
-  border: 1px solid #191919;
-  position: relative;
-  transition: all 0.3s ease-in-out;
-}
-.button-black span {
-  color: #191919;
-  position: relative;
-  top: 5px;
-  font-weight: 600;
-  font-size: 1rem;
-  margin-right: 10px;
-}
-.button-black.hover {
-  background-color: #F9D783;
-}
 
+
+.button-black {     
+    padding:15px 32px;
+    border-radius: 25px;
+    background-color: $colour-black;
+    border : 1px solid $colour-black;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+
+        span{
+            color: $colour-black;            
+            position: relative;    
+            top:5px;
+            font-weight: $font-weght-semiBold-600;
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+        &.hover{
+            background-color: $colour-yellow-btn;
+
+        }
+
+} */
 .header {
   background-color: #F0EFE9;
   padding: 20px auto;
@@ -102,14 +112,27 @@ body a {
 .header .nav-container .navigation-bar .upper-info .business-info {
   display: flex;
 }
-.header .nav-container .navigation-bar .upper-info .business-info > span {
+.header .nav-container .navigation-bar .upper-info .business-info .number, .header .nav-container .navigation-bar .upper-info .business-info .email, .header .nav-container .navigation-bar .upper-info .business-info .address {
   font-size: 1.07rem;
   font-weight: 300;
   padding-bottom: 12px;
   margin-right: 20px;
 }
-.header .nav-container .navigation-bar .upper-info .business-info > span:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info > span:nth-child(3) i {
+.header .nav-container .navigation-bar .upper-info .business-info .number:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info .number:nth-child(3) i, .header .nav-container .navigation-bar .upper-info .business-info .email:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info .email:nth-child(3) i, .header .nav-container .navigation-bar .upper-info .business-info .address:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info .address:nth-child(3) i {
   padding-left: 15px;
   border-left: 1px solid rgba(25, 25, 25, 0.1);
   margin-right: 10px;
+}
+.header .nav-container .navigation-bar .upper-info .business-info .social-media > a {
+  margin-left: 20px;
+  font-weight: 400;
+}
+.header .nav-container .navigation-bar .upper-info .business-info .social-media > a > i {
+  color: #191919;
+  width: 20px;
+  height: 20px;
+}
+.header .nav-container .navigation-bar .upper-info .lower-info {
+  display: flex;
+  justify-content: space-between;
 }
