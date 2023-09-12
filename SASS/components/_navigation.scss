@@ -1,0 +1,70 @@
+.header{
+    background-color: $colour-beige;
+    padding:20px auto;
+   
+
+    .nav-container{
+        display: flex;
+            .logo{
+                margin-right: 4.2rem;
+                
+            }
+    .navigation-bar{
+        width: 100%;
+
+        .upper-info{
+            display: flex;
+            justify-content:space-between;
+            border-bottom: 1px solid rgba($colour-black, .1);
+            margin-bottom: 25px;
+
+            .business-info{
+                display: flex;
+
+                >span{
+                 font-size: 1.07rem;
+                 font-weight: $font-weight-light-300;
+                 padding-bottom: 12px;
+                 margin-right: 20px;
+
+                    &:nth-child(2), &:nth-child(3){
+                        i{
+                            padding-left: 15px;
+                            border-left:1px solid rgba($colour-black, .1); 
+                            margin-right: 10px;
+                        }
+                    }
+                 
+                }
+            }
+        }
+
+    }
+
+
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

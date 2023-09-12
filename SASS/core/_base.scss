@@ -1,29 +1,29 @@
 
-*::before {
+*,
+*::before,
+*::after {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
-}
-
-
-
-* {
     box-sizing: border-box;
-        
 }
 
- body {
-    margin:0;
-    padding:0;
+
+ body {    
     font-size:16px;
     font-family: $font-inter;
     font-weight: $font-weight-regular-400;
     color: $colour-black;
+    
+    a {
+        text-decoration: none;
+        color: $colour-black;
+
+    }
         
 }
  
 
-// -----------------------Buttons---------------
+// ----------------------- Different Buttons---------------
 
 
 .button-beige {     
@@ -93,4 +93,6 @@
             background-color: $colour-yellow-btn;
             
         }
+        
 }
+
