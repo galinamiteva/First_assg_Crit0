@@ -107,6 +107,7 @@ body a {
   display: flex;
   justify-content: space-between;
   border-bottom: 1px solid rgba(25, 25, 25, 0.1);
+  border-bottom: 1px solid #191919;
   margin-bottom: 25px;
 }
 .header .nav-container .navigation-bar .upper-info .business-info {
@@ -123,16 +124,31 @@ body a {
   border-left: 1px solid rgba(25, 25, 25, 0.1);
   margin-right: 10px;
 }
-.header .nav-container .navigation-bar .upper-info .business-info .social-media > a {
+.header .nav-container .navigation-bar .upper-info .business-info .social-media a {
   margin-left: 20px;
   font-weight: 400;
 }
-.header .nav-container .navigation-bar .upper-info .business-info .social-media > a > i {
+.header .nav-container .navigation-bar .upper-info .business-info .social-media a i {
   color: #191919;
   width: 20px;
   height: 20px;
 }
-.header .nav-container .navigation-bar .upper-info .lower-info {
+.header .nav-container .navigation-bar .lower-info {
   display: flex;
   justify-content: space-between;
+}
+.header .nav-container .navigation-bar .lower-info .navigation-links {
+  display: flex;
+  align-items: center;
+}
+.header .nav-container .navigation-bar .lower-info .navigation-links a {
+  margin-right: 20px;
+  font-weight: 400;
+}
+.header .nav-container .navigation-bar .lower-info button {
+  position: relative;
+  border: none;
+  border-radius: 25px;
+  padding: 10px 25px;
+  background-color: #F9D783;
 }
