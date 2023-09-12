@@ -1,0 +1,70 @@
+/* 
+.button-beige {     
+    padding:15px 32px;
+    border-radius: 25px;
+    background-color: $colour-yellow-btn;
+    border : 1px solid $colour-black;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+
+        span{
+            color: $colour-black;            
+            position: relative;    
+            top:5px;
+            font-weight: $font-weght-semiBold-600;
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+        &.hover{
+            background-color: $colour-black;
+
+        }
+}
+
+
+.button-yellow {     
+    padding:15px 32px;
+    border-radius: 25px;
+    background-color: $colour-yellow-btn;
+    border : none;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+
+        span{
+            color: $colour-black;            
+            position: relative;    
+            top:5px;
+            font-weight: $font-weght-semiBold-600;
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+        &.hover{
+            background-color: $colour-black;
+
+        }
+}
+
+
+
+.button-black {     
+    padding:15px 32px;
+    border-radius: 25px;
+    background-color: $colour-black;
+    border : 1px solid $colour-black;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+
+        span{
+            color: $colour-black;            
+            position: relative;    
+            top:5px;
+            font-weight: $font-weght-semiBold-600;
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+        &.hover{
+            background-color: $colour-yellow-btn;
+
+        }
+
+} */
