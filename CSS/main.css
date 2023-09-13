@@ -73,9 +73,12 @@ body a {
   font-weight: 400;
 }
 .header .nav-container .navigation-bar .lower-info button {
-  position: relative;
   border: none;
   border-radius: 25px;
   padding: 10px 25px;
   background-color: #F9D783;
+}
+.header .nav-container .navigation-bar .lower-info button span {
+  font-weight: 600;
+  font-size: 1em;
 }

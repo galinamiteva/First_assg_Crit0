@@ -65,25 +65,24 @@
                 }
             }
             button {
-                position: relative;
+               // position: relative;
                 border:none;
                 border-radius: 25px;
                 padding: 10px 25px;
                 background-color:$colour-yellow-btn ;
+
+                span{
+                    font-weight: $font-weght-semiBold-600;                    
+                    font-size: 1em;                 
+                    
+                }
             }
         }
 
     }
 
 
-
-
-
     }
-
-
-
-
 
 }
 
