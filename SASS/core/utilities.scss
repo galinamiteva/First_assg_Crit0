@@ -1,5 +1,49 @@
 // ----------------------- Different Buttons---------------
 
+
+.button-yellow {     
+   /*  padding:15px 32px;
+    border-radius: 25px;
+    background-color: $colour-yellow-btn;
+    border : none;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    
+        span{
+            color: $colour-black;            
+            position: relative;    
+            top:5px;
+            font-weight: $font-weght-semiBold-600;
+            font-size: 1rem;
+            margin-right: 10px;
+        }
+        &.hover{
+            background-color: $colour-black;            
+        } */
+
+        border: none;
+        color: rgba($colour-black, .1);
+        background-color: $colour-yellow-btn;
+        padding: 15px 32px;
+        border-radius:30px;    
+        transition: all 0.3s ease-in-out;
+                        
+        &:hover{
+            background-color: $colour-black;
+            color: $colour-white;
+        }
+
+        i{
+            margin-left: 9px;
+            font-size: 1em;
+        }
+
+
+
+}
+
+
+
 /* 
 .button-beige {     
     padding:15px 32px;
@@ -24,27 +68,6 @@
 }
 
 
-.button-yellow {     
-    padding:15px 32px;
-    border-radius: 25px;
-    background-color: $colour-yellow-btn;
-    border : none;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-    
-        span{
-            color: $colour-black;            
-            position: relative;    
-            top:5px;
-            font-weight: $font-weght-semiBold-600;
-            font-size: 1rem;
-            margin-right: 10px;
-        }
-        &.hover{
-            background-color: $colour-black;
-            
-        }
-}
 
 
 
@@ -69,5 +92,6 @@
             
         }
         
-} */
+} 
 
+ */
