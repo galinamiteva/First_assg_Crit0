@@ -19,58 +19,122 @@ body a {
 
 .header {
   background-color: #F0EFE9;
-  padding: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
+  /* @media (min-width:768px) {
+
+      width: 720px;    
+  }
+
+  @media (min-width:1024px) {
+
+      width: 960px;    
+  }
+
+  @media (min-width:1920px) {
+
+      width: 1320px;    
+  } 
+   @media (min-width:2500px) {
+
+      width: 2048px;    
+  } */
 }
 .header .nav-container {
   display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 .header .nav-container .logo {
-  margin-right: 4.2rem;
+  padding: 0 45 px 0 0;
+}
+@media (min-width: 992px) {
+  .header .nav-container .fa-bars {
+    display: none;
+  }
 }
 .header .nav-container .navigation-bar {
   width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+}
+@media (min-width: 992px) {
+  .header .nav-container .navigation-bar {
+    display: flex;
+  }
 }
 .header .nav-container .navigation-bar .upper-info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border-bottom: 1px solid rgba(25, 25, 25, 0.1);
-  border-bottom: 1px solid #191919;
-  margin-bottom: 25px;
+  margin: 22px 0 0 0;
 }
 .header .nav-container .navigation-bar .upper-info .business-info {
-  display: flex;
-}
-.header .nav-container .navigation-bar .upper-info .business-info .number, .header .nav-container .navigation-bar .upper-info .business-info .email, .header .nav-container .navigation-bar .upper-info .business-info .address {
-  font-size: 1.07rem;
+  display: none;
+  align-items: center;
   font-weight: 300;
-  padding-bottom: 12px;
-  margin-right: 20px;
+  font-size: 0.9em;
 }
-.header .nav-container .navigation-bar .upper-info .business-info .number:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info .number:nth-child(3) i, .header .nav-container .navigation-bar .upper-info .business-info .email:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info .email:nth-child(3) i, .header .nav-container .navigation-bar .upper-info .business-info .address:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info .address:nth-child(3) i {
+@media (min-width: 1200px) {
+  .header .nav-container .navigation-bar .upper-info .business-info {
+    display: flex;
+  }
+}
+.header .nav-container .navigation-bar .upper-info .business-info span {
+  padding: 0 40px 0 0;
+  font-size: 1.2rem;
+}
+.header .nav-container .navigation-bar .upper-info .business-info span i {
+  padding: 0 8px 0 0;
+}
+.header .nav-container .navigation-bar .upper-info .business-info span:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info span:nth-child(3) i {
   padding-left: 15px;
   border-left: 1px solid rgba(25, 25, 25, 0.1);
-  margin-right: 10px;
 }
-.header .nav-container .navigation-bar .upper-info .business-info .social-media a {
-  margin-left: 20px;
-  font-weight: 400;
+.header .nav-container .navigation-bar .upper-info .social-media {
+  display: none;
 }
-.header .nav-container .navigation-bar .upper-info .business-info .social-media a i {
-  color: #191919;
-  width: 20px;
-  height: 20px;
+@media (min-width: 1200px) {
+  .header .nav-container .navigation-bar .upper-info .social-media {
+    display: inline;
+  }
+}
+.header .nav-container .navigation-bar .upper-info .social-media i {
+  font-size: 1.2rem;
+  margin: 10px 0 20px 15px;
 }
 .header .nav-container .navigation-bar .lower-info {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  margin: 20px 0;
 }
 .header .nav-container .navigation-bar .lower-info .navigation-links {
   display: flex;
   align-items: center;
 }
 .header .nav-container .navigation-bar .lower-info .navigation-links a {
-  margin-right: 20px;
+  margin-right: 0 32px 0 0px;
   font-weight: 400;
+  display: inline-block;
+  position: relative;
+  font-size: 1rem;
+}
+.header .nav-container .navigation-bar .lower-info .navigation-links a.active {
+  font-weight: 300;
+}
+.header .nav-container .navigation-bar .lower-info .navigation-links a.active::after, .header .nav-container .navigation-bar .lower-info .navigation-links a:hover::after {
+  font-weight: 300;
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 15px;
+  background-color: rgba(25, 25, 25, 0.1);
+  left: 50%;
+  bottom: -3px;
+  transform: translate();
 }
 .header .nav-container .navigation-bar .lower-info button {
   border: none;
