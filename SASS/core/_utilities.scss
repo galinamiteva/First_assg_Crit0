@@ -4,7 +4,7 @@
 .button-yellow {    
    
     border: none;
-    color: rgba($colour-black, .1);
+    color: $colour-black-op10;
     background-color: $colour-yellow-btn;
     padding: 15px 32px;
     border-radius:30px;    
@@ -29,7 +29,7 @@
     background-color: transparent; 
     border : 1px solid $colour-black; 
     padding: 15px 32px;
-    color: rgba($colour-black, .1);
+    color: $colour-black-op10;
     border-radius:30px;
     transition: all 0.3s ease-in-out;        
     
