@@ -1,34 +1,39 @@
 // ----------------------- Different Buttons---------------
 
 
-.button-yellow {     
-   /*  padding:15px 32px;
-    border-radius: 25px;
+.button-yellow {    
+   
+    border: none;
+    color: rgba($colour-black, .1);
     background-color: $colour-yellow-btn;
-    border : none;
-    position: relative;
+    padding: 15px 32px;
+    border-radius:30px;    
     transition: all 0.3s ease-in-out;
     
-        span{
-            color: $colour-black;            
-            position: relative;    
-            top:5px;
-            font-weight: $font-weght-semiBold-600;
-            font-size: 1rem;
-            margin-right: 10px;
-        }
-        &.hover{
-            background-color: $colour-black;            
-        } */
+                    
+    &:hover{
+        background-color: $colour-black;
+        color: $colour-white;
+    }
 
-        border: none;
-        color: rgba($colour-black, .1);
-        background-color: $colour-yellow-btn;
-        padding: 15px 32px;
-        border-radius:30px;    
-        transition: all 0.3s ease-in-out;
-        
-                        
+    i{
+        margin-left: 9px;
+        font-size: 1em;
+    }
+
+}
+
+
+.button-beige {  
+   
+    background-color: transparent; 
+    border : 1px solid $colour-black; 
+    padding: 15px 32px;
+    color: rgba($colour-black, .1);
+    border-radius:30px;
+    transition: all 0.3s ease-in-out;        
+    
+                    
         &:hover{
             background-color: $colour-black;
             color: $colour-white;
@@ -38,61 +43,28 @@
             margin-left: 9px;
             font-size: 1em;
         }
-
-
-
 }
-
-
-
-/* 
-.button-beige {     
-    padding:15px 32px;
-    border-radius: 25px;
-    background-color: $colour-yellow-btn;
-    border : 1px solid $colour-black;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-    
-        span{
-            color: $colour-black;            
-            position: relative;    
-            top:5px;
-            font-weight: $font-weght-semiBold-600;
-            font-size: 1rem;
-            margin-right: 10px;
-        }
-        &.hover{
-            background-color: $colour-black;
-            
-        }
-}
-
-
 
 
 
 .button-black {     
-    padding:15px 32px;
-    border-radius: 25px;
-    background-color: $colour-black;
-    border : 1px solid $colour-black;
-    position: relative;
-    transition: all 0.3s ease-in-out;
     
-        span{
-            color: $colour-black;            
-            position: relative;    
-            top:5px;
-            font-weight: $font-weght-semiBold-600;
-            font-size: 1rem;
-            margin-right: 10px;
-        }
-        &.hover{
+    border : 1px solid $colour-black; 
+    color: $colour-white;
+    background-color: $colour-black;
+    padding: 15px 32px;
+    border-radius:30px;
+    transition: all 0.3s ease-in-out;       
+                            
+        &:hover{
             background-color: $colour-yellow-btn;
-            
+            color: $colour-black;   
+        }
+
+        i{
+            margin-left: 9px;
+            font-size: 1em;
         }
         
 } 
 
- */

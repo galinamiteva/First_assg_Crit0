@@ -79,9 +79,9 @@
                     //     }                  
                     // }
 
-                    span{
+                    p{
                         padding: 0 40px 0 0;
-                        font-size: 1.2rem;
+                        font-size: 1.2rem;     
                         
                         i{
                             padding: 0 8px 0 0;
@@ -156,37 +156,7 @@
             
             } 
 
-            /* .login-btn {
-               
-                 border:none;
-                border-radius: 25px;
-                padding: 10px 25px;
-                background-color:$colour-yellow-btn ;
-
-                span{
-                    font-weight: $font-weght-semiBold-600;                    
-                    font-size: 1em;                 
-                    
-                } 
-
-                border: 1px solid $colour-beige;
-                color: rgba($colour-black, .1);
-                background-color: $colour-yellow-btn;
-                padding: 15px 35px;
-                border-radius:30px;
-                transition: all 0.25s ease-in-out;       
-                
-                &:hover{
-                    background-color: $colour-black;
-                    color: $colour-white;
-                }
-
-                i{
-                    margin-left: 9px;
-                    font-size: 1em;
-                }
-        
-            } */
+           
         }
 
     }

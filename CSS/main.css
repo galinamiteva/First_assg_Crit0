@@ -60,24 +60,6 @@ body a, html a {
 }
 
 .button-yellow {
-  /*  padding:15px 32px;
-   border-radius: 25px;
-   background-color: $colour-yellow-btn;
-   border : none;
-   position: relative;
-   transition: all 0.3s ease-in-out;
-
-       span{
-           color: $colour-black;            
-           position: relative;    
-           top:5px;
-           font-weight: $font-weght-semiBold-600;
-           font-size: 1rem;
-           margin-right: 10px;
-       }
-       &.hover{
-           background-color: $colour-black;            
-       } */
   border: none;
   color: rgba(25, 25, 25, 0.1);
   background-color: #F9D783;
@@ -94,57 +76,40 @@ body a, html a {
   font-size: 1em;
 }
 
-/* 
-.button-beige {     
-    padding:15px 32px;
-    border-radius: 25px;
-    background-color: $colour-yellow-btn;
-    border : 1px solid $colour-black;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-
-        span{
-            color: $colour-black;            
-            position: relative;    
-            top:5px;
-            font-weight: $font-weght-semiBold-600;
-            font-size: 1rem;
-            margin-right: 10px;
-        }
-        &.hover{
-            background-color: $colour-black;
-
-        }
+.button-beige {
+  background-color: transparent;
+  border: 1px solid #191919;
+  padding: 15px 32px;
+  color: rgba(25, 25, 25, 0.1);
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.button-beige:hover {
+  background-color: #191919;
+  color: #FFFFFF;
+}
+.button-beige i {
+  margin-left: 9px;
+  font-size: 1em;
 }
 
+.button-black {
+  border: 1px solid #191919;
+  color: #FFFFFF;
+  background-color: #191919;
+  padding: 15px 32px;
+  border-radius: 30px;
+  transition: all 0.3s ease-in-out;
+}
+.button-black:hover {
+  background-color: #F9D783;
+  color: #191919;
+}
+.button-black i {
+  margin-left: 9px;
+  font-size: 1em;
+}
 
-
-
-
-.button-black {     
-    padding:15px 32px;
-    border-radius: 25px;
-    background-color: $colour-black;
-    border : 1px solid $colour-black;
-    position: relative;
-    transition: all 0.3s ease-in-out;
-
-        span{
-            color: $colour-black;            
-            position: relative;    
-            top:5px;
-            font-weight: $font-weght-semiBold-600;
-            font-size: 1rem;
-            margin-right: 10px;
-        }
-        &.hover{
-            background-color: $colour-yellow-btn;
-
-        }
-
-} 
-
- */
 .header {
   background-color: #F0EFE9;
   margin-left: auto;
@@ -211,14 +176,14 @@ body a, html a {
     display: flex;
   }
 }
-.header .nav-container .navigation-bar .upper-info .business-info span {
+.header .nav-container .navigation-bar .upper-info .business-info p {
   padding: 0 40px 0 0;
   font-size: 1.2rem;
 }
-.header .nav-container .navigation-bar .upper-info .business-info span i {
+.header .nav-container .navigation-bar .upper-info .business-info p i {
   padding: 0 8px 0 0;
 }
-.header .nav-container .navigation-bar .upper-info .business-info span:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info span:nth-child(3) i {
+.header .nav-container .navigation-bar .upper-info .business-info p:nth-child(2) i, .header .nav-container .navigation-bar .upper-info .business-info p:nth-child(3) i {
   padding-left: 15px;
   border-left: 1px solid rgba(25, 25, 25, 0.1);
 }
@@ -239,37 +204,6 @@ body a, html a {
   justify-content: space-between;
   align-items: center;
   margin: 20px 0;
-  /* .login-btn {
-
-       border:none;
-      border-radius: 25px;
-      padding: 10px 25px;
-      background-color:$colour-yellow-btn ;
-
-      span{
-          font-weight: $font-weght-semiBold-600;                    
-          font-size: 1em;                 
-
-      } 
-
-      border: 1px solid $colour-beige;
-      color: rgba($colour-black, .1);
-      background-color: $colour-yellow-btn;
-      padding: 15px 35px;
-      border-radius:30px;
-      transition: all 0.25s ease-in-out;       
-
-      &:hover{
-          background-color: $colour-black;
-          color: $colour-white;
-      }
-
-      i{
-          margin-left: 9px;
-          font-size: 1em;
-      }
-
-  } */
 }
 .header .nav-container .navigation-bar .lower-info .navigation-links {
   display: flex;
