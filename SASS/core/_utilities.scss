@@ -1,12 +1,11 @@
 // ----------------------- Different Buttons---------------
 
 
-.button-yellow {    
-   
+.button-yellow {      
     border: none;
     color: $colour-black-op10;
     background-color: $colour-yellow-btn;
-    padding: 15px 32px;
+    padding: 18px 32px 10px 32px;
     border-radius:30px;    
     transition: all 0.3s ease-in-out;
     
@@ -28,7 +27,7 @@
    
     background-color: transparent; 
     border : 1px solid $colour-black; 
-    padding: 15px 32px;
+    padding: 18px 32px 10px 32px;
     color: $colour-black-op10;
     border-radius:30px;
     transition: all 0.3s ease-in-out;        
@@ -52,7 +51,7 @@
     border : 1px solid $colour-black; 
     color: $colour-white;
     background-color: $colour-black;
-    padding: 15px 32px;
+    padding: 18px 32px 10px 32px;
     border-radius:30px;
     transition: all 0.3s ease-in-out;       
                             
