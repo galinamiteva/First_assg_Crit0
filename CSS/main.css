@@ -270,3 +270,16 @@ html a, body a {
     display: inline;
   }
 }
+
+.company_logos .container {
+  display: none;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 80px;
+  margin-top: 80px;
+}
+@media (min-width: 1200px) {
+  .company_logos .container {
+    display: flex;
+  }
+}
