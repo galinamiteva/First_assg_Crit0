@@ -115,7 +115,6 @@ html a, body a {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid rgba(25, 25, 25, 0.1);
-  margin: 10px 0 0 0;
 }
 @media (max-width: 1200px) {
   .header .container .navigation-bar .upper-info {
@@ -132,16 +131,16 @@ html a, body a {
     display: flex;
   }
 }
-.header .container .navigation-bar .upper-info .business-info p {
+.header .container .navigation-bar .upper-info .business-info span {
   padding: 0 35px 0 0;
   font-size: 0.9rem;
   color: rgba(25, 25, 25, 0.8);
 }
-.header .container .navigation-bar .upper-info .business-info p i {
+.header .container .navigation-bar .upper-info .business-info span i {
   padding: 0 8px 0 0;
   font-size: 1.2rem;
 }
-.header .container .navigation-bar .upper-info .business-info p:nth-child(2) i, .header .container .navigation-bar .upper-info .business-info p:nth-child(3) i {
+.header .container .navigation-bar .upper-info .business-info span:nth-child(2) i, .header .container .navigation-bar .upper-info .business-info span:nth-child(3) i {
   padding-left: 15px;
   border-left: 1px solid rgba(25, 25, 25, 0.1);
 }
@@ -155,7 +154,7 @@ html a, body a {
 }
 .header .container .navigation-bar .upper-info .social-media i {
   font-size: 1rem;
-  margin: 10px 0 20px 15px;
+  margin: 20px 0 20px 15px;
 }
 .header .container .navigation-bar .lower-info {
   display: flex;
@@ -223,7 +222,9 @@ html a, body a {
   }
 }
 .showcase .container .showcase-info .showcase-paragraph {
-  font-size: 18px;
+  font-size: 20px;
+  font-family: "Inter", sans-serif;
+  color: rgba(25, 25, 25, 0.7);
   font-weight: 400;
   margin: 15px 0 40px;
 }
@@ -239,11 +240,15 @@ html a, body a {
 }
 .showcase .container .showcase-info .showcase-btn .button-yellow {
   margin: 0 0 20px;
+  text-align: center;
 }
 @media (min-width: 992px) {
   .showcase .container .showcase-info .showcase-btn .button-yellow {
     margin: 0 10px 0 0;
   }
+}
+.showcase .container .showcase-info .showcase-btn .button-beige {
+  text-align: center;
 }
 .showcase .container .showcase-img {
   margin: 80px -50px auto auto;

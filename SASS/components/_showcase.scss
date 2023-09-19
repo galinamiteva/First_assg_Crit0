@@ -15,7 +15,7 @@
         @media (min-width:1200px) {
             padding-top: 0;
             padding-bottom: 0;
-           //padding: 0 auto;
+          
         }
 
         .showcase-info{
@@ -36,7 +36,9 @@
             
             
             .showcase-paragraph{
-                font-size: 18px;
+                font-size: 20px;
+                font-family: $font-inter;
+                color: $colour-black-op70;
                 font-weight: $font-weight-regular-400;
                 margin: 15px 0 40px;
             }
@@ -49,14 +51,19 @@
 
                 @media (min-width:992px) {
                     display: inline;
+                    
                 }
 
                 .button-yellow{
                     margin:0 0 20px;
+                    text-align: center;
 
                     @media (min-width:992px) {
                         margin:0 10px 0 0;
                     }
+                }
+                .button-beige{
+                    text-align: center;
                 }
             }
         }
