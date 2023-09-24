@@ -1,0 +1,163 @@
+/* .features{
+    display: flex;
+    justify-content: center;
+    
+    .container{
+        display: grid;
+        grid-template-columns: 3fr 4fr; //???proveri
+        column-gap: 6rem;
+
+        @media (max-width:1200px) {
+            border: 1.2px solid $colour-black-op10; //1.2px  på chsemat
+            grid-template-columns: 1fr;
+            grid-template-rows: 1fr 1fr;
+            column-gap: 0; 
+            margin-top: 4rem;
+            margin-bottom: 4rem;
+            text-align: center;
+
+            @media (max-width:576px) {
+                margin-top: 3rem;
+                margin-bottom: 3rem;
+                text-align: center;                
+            }
+        }
+                
+        margin-top: 6rem;
+        margin-bottom: 6rem;
+
+        .feature-info{
+            @media (max-width: 1200px) {
+                grid-column-start: 1;  //grid-column=1/-1 ????
+                grid-column-end: -1;    //grid-column=1/-1 ??????
+                
+            }           
+            
+           h5{
+                padding:1rem 0;               
+                font-weight: $font-weight-bold-700;
+                
+            }
+
+        }
+    }
+
+}
+
+*/
+
+.features{
+    .container{
+        justify-content:center;       
+        align-items: center;
+        margin-top: 30px; 
+        
+       /*  display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+
+        grid-template-areas: "header"
+                                "main"
+                                "footer";
+
+        header { grid-area: header;}
+        main {grid-area:main; text-aligh:center; margin-top: 20px; }
+        footer {grid-area:footer;}
+ */
+            @media (min-width: 992px) {
+                display: flex;
+                  
+                border: 1.2px solid $colour-black-op10; //1.2px  på chsemat                              
+            }
+
+            @media (min-width: 1200px) {
+                display: flex;
+                justify-content: space-between;                   
+                border: 1.2px solid $colour-black-op10; //1.2px  på chsemat             
+            }
+
+        .features-info {
+                    
+            
+           // padding: 50px 0 30px 0 ;
+            height:60vh ;
+
+
+            @media (min-width: 992px) {
+                
+                padding:45px 100px 60px 0px;
+
+            }
+
+            @media (min-width: 1200px) {
+                width: 70%;
+                padding: 45px 100px 100px 80px;
+
+            }
+
+            .feature-mobile{               
+               
+                position: relative;
+                top:50px;
+
+                .features-title{
+                    font-size: 45px;
+                    font-family: $font-dm-sants;
+                    font-weight: $font-weight-bold-700;
+                    margin-bottom: 25px;
+                   
+    
+                }
+                
+                .button-yellow{
+                    position:relative;
+                    top:50px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;              
+                    text-align: center;
+    
+                        @media (min-width:992px) {
+                            margin:0 10px 0 0;
+                            
+                            display: inline;
+                        }
+                }    
+            }
+                  
+        }    
+
+        .features-aside{
+            display:none;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            gap: 30px;
+            padding-right: 50px;
+
+            @media (min-width:1200px) {
+                display: grid;
+                
+            }
+        }
+
+        .feature-grid{
+            div{
+                font-size: 25px;
+                margin-bottom: 15px;
+                
+            }
+
+            h3{
+                font-family:$font-dm-sants;
+                font-size: 22px; 
+                font-weight: $font-weight-bold-700;
+                margin:10px auto;
+            }
+
+            p{
+                font-size: 16px;
+                font-weight: $font-weight-regular-400;
+            }
+        }
+    }
+}
