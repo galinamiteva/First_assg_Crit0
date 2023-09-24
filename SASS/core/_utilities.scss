@@ -13,11 +13,16 @@
     &:hover{
         background-color: $colour-black-op90;
         color: $colour-white;
+
+        i{
+            color: $colour-white;
+        }
     }
 
     i{
         margin-left: 9px;
         font-size: 1em;
+        color: $colour-black-op70;  
     }
 
 }
@@ -36,12 +41,19 @@
         &:hover{
             background-color: $colour-black;
             color: $colour-white;
+
+            i{
+                color:  $colour-white;
+            }
         }
 
         i{
             margin-left: 9px;
             font-size: 1em;
+            color: $colour-black-op70;  
+                   
         }
+
 }
 
 
@@ -57,12 +69,19 @@
                             
         &:hover{
             background-color: $colour-yellow-btn;
-            color: $colour-black-op30;   
+            color: $colour-black;  
+
+            i{
+                color: $colour-black-op70;  
+            }
+             
         }
 
         i{
             margin-left: 9px;
             font-size: 1em;
+            color: $colour-white;          
+
         }
         
 } 

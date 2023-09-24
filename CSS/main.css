@@ -38,9 +38,13 @@ a {
   background-color: rgba(25, 25, 25, 0.9);
   color: #FFFFFF;
 }
+.button-yellow:hover i {
+  color: #FFFFFF;
+}
 .button-yellow i {
   margin-left: 9px;
   font-size: 1em;
+  color: rgba(25, 25, 25, 0.7);
 }
 
 .button-beige {
@@ -55,9 +59,13 @@ a {
   background-color: #191919;
   color: #FFFFFF;
 }
+.button-beige:hover i {
+  color: #FFFFFF;
+}
 .button-beige i {
   margin-left: 9px;
   font-size: 1em;
+  color: rgba(25, 25, 25, 0.7);
 }
 
 .button-black {
@@ -70,11 +78,15 @@ a {
 }
 .button-black:hover {
   background-color: #F9D783;
-  color: rgba(25, 25, 25, 0.3);
+  color: #191919;
+}
+.button-black:hover i {
+  color: rgba(25, 25, 25, 0.7);
 }
 .button-black i {
   margin-left: 9px;
   font-size: 1em;
+  color: #FFFFFF;
 }
 
 .header {
@@ -291,58 +303,11 @@ a {
   }
 }
 
-/* .features{
-    display: flex;
-    justify-content: center;
-
-    .container{
-        display: grid;
-        grid-template-columns: 3fr 4fr; //???proveri
-        column-gap: 6rem;
-
-        @media (max-width:1200px) {
-            border: 1.2px solid $colour-black-op10; //1.2px  på chsemat
-            grid-template-columns: 1fr;
-            grid-template-rows: 1fr 1fr;
-            column-gap: 0; 
-            margin-top: 4rem;
-            margin-bottom: 4rem;
-            text-align: center;
-
-            @media (max-width:576px) {
-                margin-top: 3rem;
-                margin-bottom: 3rem;
-                text-align: center;                
-            }
-        }
-
-        margin-top: 6rem;
-        margin-bottom: 6rem;
-
-        .feature-info{
-            @media (max-width: 1200px) {
-                grid-column-start: 1;  //grid-column=1/-1 ????
-                grid-column-end: -1;    //grid-column=1/-1 ??????
-
-            }           
-
-           h5{
-                padding:1rem 0;               
-                font-weight: $font-weight-bold-700;
-
-            }
-
-        }
-    }
-
-}
-
-*/
 .features .container {
   justify-content: center;
   align-items: center;
   margin-top: 30px;
-  /*  display: grid;
+  /* Hans -->  display: grid;
          grid-template-columns: 1fr;
          grid-template-rows: auto 1fr auto;
 
