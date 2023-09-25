@@ -4,7 +4,7 @@
     .container{
         justify-content:center;       
         align-items: center;
-        margin-top: 30px; 
+        margin-top: 10px; 
         
        /* Hans -->  display: grid;
         grid-template-columns: 1fr;
@@ -20,11 +20,12 @@
  */
             @media (min-width: 992px) {
                 display: flex;
-                  
+                margin-top: 30px;   
                 border: 1.2px solid $colour-black-op10; //1.2px  på chsemat                              
             }
 
             @media (min-width: 1200px) {
+                margin-top: 30px; 
                 display: flex;
                 justify-content: space-between;                   
                 border: 1.2px solid $colour-black-op10; //1.2px  på chsemat             
@@ -33,46 +34,65 @@
         .features-info {
                              
            
-            height:60vh ;
-
+            height:60vh ;          
+            
             @media (min-width: 992px) {
-                
-                padding:45px 100px 60px 0px;
+                width: 78%;
+                padding:45px 30px 60px 80px;
 
             }
 
             @media (min-width: 1200px) {
-                width: 70%;
-                padding: 45px 100px 100px 80px;
+                width: 60%;
+                padding: 45px 30px 100px 50px;
 
             }
 
             .feature-mobile{               
                
                 position: relative;
-                top:50px;
+                top:70px;
+                
+
+                @media (min-width: 992px) {
+                    top:40px;
+                    padding-right: 80px;
+    
+                }
+    
+                @media (min-width: 1200px) {
+                    top:40px;
+    
+                }
 
                 .features-title{
-                    font-size: 45px;
+                    font-size: 35px;
                     font-family: $font-dm-sants;
                     font-weight: $font-weight-bold-700;
                     margin-bottom: 25px;
-                   
+
+                    @media (min-width: 992px) {
+                        font-size:45px;
+                        
+        
+                    }
     
                 }
                 
                 .button-yellow{
                     position:relative;
-                    top:50px;
+                    top:90px;
                     display: flex;
                     justify-content: center;
                     align-items: center;              
                     text-align: center;
+                    width: 100%;
     
                         @media (min-width:992px) {
                             margin:0 10px 0 0;
+                            top:auto;
                             
-                            display: inline;
+                            display: inline-block;
                         }
                 }    
             }
@@ -84,10 +104,11 @@
             grid-template-columns: 1fr 1fr;
             grid-template-rows: auto;
             gap: 30px;
-            padding-right: 50px;
+            padding-right: 30px;
 
             @media (min-width:1200px) {
                 display: grid;
+
                 
             }
         }
