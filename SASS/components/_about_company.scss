@@ -61,6 +61,7 @@ margin-top: 120px;
     .about-info{
         margin-left: 0px;
         margin-right: 0px;
+       
         
         @media (min-width:992px) {
             //flex:1 1 50%
@@ -74,10 +75,11 @@ margin-top: 120px;
             font-size: 35px; //45px in normal
             font-family:$font-dm-sants;
             font-weight: $font-weight-bold-700;
-            margin:30px auto;
+            margin:70px  auto 30px auto;
     
             @media (min-width:992px) {
-                font-size: 45px;           
+                font-size: 45px;  
+                margin:30px  auto;         
     
             }
         }
