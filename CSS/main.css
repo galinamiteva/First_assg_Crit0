@@ -563,8 +563,8 @@ a {
 }
 
 .our-service {
-  margin-top: 120px;
   background-color: #F0EFE9;
+  margin-top: 120px;
   position: relative;
 }
 .our-service img {
@@ -580,24 +580,6 @@ a {
 }
 .our-service .container {
   text-align: center;
-  /* .red-text{
-      padding-top: 120px;
-      padding-bottom: 20px;
-   }
-
-   .our-service-title{
-      font-family: $font-dm-sants;
-      font-size: 45px;
-      font-weight: $font-weight-bold-700;
-      padding-bottom: 20px;
-
-
-
-      @media (min-width: 1200px) { 
-          padding-bottom: 5px;
-          width: 500px;                          
-       }
-   } */
 }
 @media (min-width: 1200px) {
   .our-service .container {
@@ -672,15 +654,16 @@ a {
       position: absolute;
 
   } */
-}
-.our-service .container .flex-wrapper .box::after {
-  content: "";
-  position: absolute;
-  font-weight: 500;
-  height: 2px;
-  width: 39px;
-  background-color: rgba(25, 25, 25, 0.9);
-  top: 440px;
+  /*  &::after{
+       content: '';
+       position: absolute;
+       font-weight: $font-weight-medium-500;
+       height: 2px;
+       width: 39px;
+       background-color: $colour-black-op90;
+       top:440px;
+
+   } */
 }
 .our-service .container .flex-wrapper .box h3 {
   font-size: 22px;
