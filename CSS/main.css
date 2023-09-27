@@ -734,6 +734,18 @@ a {
   justify-content: space-between;
   align-items: start;
 }
+@media (min-width: 992px) {
+  .why-choose-us .container .why-choose-content {
+    margin-right: 100px;
+    margin-left: 190px;
+  }
+}
+@media (min-width: 1200px) {
+  .why-choose-us .container .why-choose-content {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
 @media (min-width: 1400px) {
   .why-choose-us .container .why-choose-content {
     margin-right: 220px;

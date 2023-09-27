@@ -30,9 +30,20 @@
         .why-choose-content{
             
 
+            @media (min-width:992px) {
+                margin-right: 100px;
+                margin-left: 190px;
+            
+            }
+            @media (min-width:1200px) {
+                margin-right: 0;
+                margin-left: 0;
+            
+            }
+
             @media (min-width:1400px) {
                 margin-right: 220px;
-            //background-color: blue;
+            
             }
             
 
