@@ -312,7 +312,7 @@ h2.title {
 .features .container {
   justify-content: center;
   align-items: center;
-  margin-top: 10px;
+  margin-top: 60px;
   /* Hans -->  display: grid;
          grid-template-columns: 1fr;
          grid-template-rows: auto 1fr auto;
@@ -341,13 +341,10 @@ h2.title {
     border: 1.2px solid rgba(25, 25, 25, 0.1);
   }
 }
-.features .container .features-info {
-  height: 60vh;
-}
 @media (min-width: 992px) {
   .features .container .features-info {
     width: 78%;
-    padding: 45px 30px 60px 80px;
+    padding: 45px 10px 60px 80px;
   }
 }
 @media (min-width: 1200px) {
@@ -358,7 +355,6 @@ h2.title {
 }
 .features .container .features-info .feature-mobile {
   position: relative;
-  top: 70px;
 }
 @media (min-width: 992px) {
   .features .container .features-info .feature-mobile {
@@ -392,6 +388,7 @@ h2.title {
   .features .container .features-info .feature-mobile .button-yellow {
     margin: 0 10px 0 0;
     top: auto;
+    width: auto;
     display: inline-block;
   }
 }
@@ -478,6 +475,12 @@ h2.title {
   .about-company .about-info {
     margin-left: 190px;
     margin-right: 100px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-company .about-info {
+    margin-left: 190px;
+    margin-right: auto;
   }
 }
 .about-company .about-info .about-title {
@@ -654,16 +657,15 @@ h2.title {
       position: absolute;
 
   } */
-  /*  &::after{
-       content: '';
-       position: absolute;
-       font-weight: $font-weight-medium-500;
-       height: 2px;
-       width: 39px;
-       background-color: $colour-black-op90;
-       top:440px;
-
-   } */
+}
+.our-service .container .flex-wrapper .box::after {
+  content: "";
+  position: absolute;
+  font-weight: 500;
+  height: 2px;
+  width: 39px;
+  background-color: rgba(25, 25, 25, 0.9);
+  top: 440px;
 }
 .our-service .container .flex-wrapper .box h3 {
   font-size: 22px;
@@ -762,10 +764,6 @@ h2.title {
 .why-choose-us .container .why-choose-content .why-choose-title {
   margin-top: 25px;
   margin-bottom: 45px;
-}
-.why-choose-us .container .why-choose-content .why-choose-advert {
-  padding-left: 7rem;
-  padding-right: 7rem;
 }
 @media (min-width: 992px) {
   .why-choose-us .container .why-choose-content .why-choose-advert {
