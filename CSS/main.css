@@ -734,8 +734,18 @@ a {
   justify-content: space-between;
   align-items: start;
 }
-.why-choose-us .container .why-choose-content {
-  margin-right: 230px;
+@media (min-width: 1400px) {
+  .why-choose-us .container .why-choose-content {
+    margin-right: 220px;
+  }
+}
+.why-choose-us .container .why-choose-content .red-text {
+  margin-bottom: 50px;
+}
+@media (min-width: 992px) {
+  .why-choose-us .container .why-choose-content .red-text {
+    margin-bottom: auto;
+  }
 }
 .why-choose-us .container .why-choose-content .why-choose-title {
   font-family: "DM sans", sans-serif;
@@ -744,7 +754,17 @@ a {
   margin-top: 25px;
   margin-bottom: 45px;
 }
-.why-choose-us .container .why-choose-content .why-choose-box {
+.why-choose-us .container .why-choose-content .why-choose-advert {
+  padding-left: 7rem;
+  padding-right: 7rem;
+}
+@media (min-width: 992px) {
+  .why-choose-us .container .why-choose-content .why-choose-advert {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+.why-choose-us .container .why-choose-content .why-choose-advert .why-choose-box {
   font-family: "DM sans", sans-serif;
   font-weight: 700;
   font-size: 22px;
@@ -754,16 +774,16 @@ a {
   margin-top: 30px;
   transition: all 0.3s ease-in-out;
 }
-.why-choose-us .container .why-choose-content .why-choose-box div {
+.why-choose-us .container .why-choose-content .why-choose-advert .why-choose-box div {
   margin-right: 25px;
 }
-.why-choose-us .container .why-choose-content .why-choose-box i {
+.why-choose-us .container .why-choose-content .why-choose-advert .why-choose-box i {
   border: 1px solid rgba(25, 25, 25, 0.1);
   padding: 13px;
   font-size: 33px;
   border-radius: 50%;
 }
-.why-choose-us .container .why-choose-content .why-choose-box p {
+.why-choose-us .container .why-choose-content .why-choose-advert .why-choose-box p {
   font-family: font-inter;
   font-size: 16px;
   color: rgba(25, 25, 25, 0.7);

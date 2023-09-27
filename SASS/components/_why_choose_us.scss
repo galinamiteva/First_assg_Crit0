@@ -28,8 +28,25 @@
 
 
         .why-choose-content{
-            margin-right: 230px;
+            
+
+            @media (min-width:1400px) {
+                margin-right: 220px;
             //background-color: blue;
+            }
+            
+
+
+            .red-text{
+
+                margin-bottom: 50px;
+
+                @media (min-width:992px) {
+                    margin-bottom: auto;
+                
+                }
+                
+            }
 
             .why-choose-title{
                 font-family: $font-dm-sants;
@@ -38,35 +55,46 @@
                 margin-top:25px;
                 margin-bottom:45px;                
             }
-            .why-choose-box{
-                font-family: $font-dm-sants;
-                font-weight: $font-weight-bold-700;
-                font-size: 22px;
-                display:flex;
-                justify-content: flex-start;
-                align-items: center;
-                margin-top: 30px;               
-                transition: all 0.3s ease-in-out;
+            .why-choose-advert{
+                padding-left: 7rem;
+                padding-right: 7rem;
 
-                div{
-                    margin-right: 25px;
+                @media (min-width:992px) {
+                    padding-left: 0;
+                    padding-right: 0;
+                
                 }
 
-                i{
-                    border: 1px solid $colour-black-op10;
-                    padding:13px;
-                    font-size: 33px;
-                    border-radius: 50%;
-
-                }
-
-                p{
-                    font-family: font-inter;
-                    font-size: 16px;
-                    color: $colour-black-op70;
-                    font-weight: $font-weight-regular-400;
-                }
-            }    
+                .why-choose-box{
+                    font-family: $font-dm-sants;
+                    font-weight: $font-weight-bold-700;
+                    font-size: 22px;
+                    display:flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-top: 30px;               
+                    transition: all 0.3s ease-in-out;
+    
+                    div{
+                        margin-right: 25px;
+                    }
+    
+                    i{
+                        border: 1px solid $colour-black-op10;
+                        padding:13px;
+                        font-size: 33px;
+                        border-radius: 50%;
+    
+                    }
+    
+                    p{
+                        font-family: font-inter;
+                        font-size: 16px;
+                        color: $colour-black-op70;
+                        font-weight: $font-weight-regular-400;
+                    }
+                }    
+            }
         }
 
 
