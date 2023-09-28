@@ -313,18 +313,6 @@ h2.title {
   justify-content: center;
   align-items: center;
   margin-top: 60px;
-  /* Hans -->  display: grid;
-         grid-template-columns: 1fr;
-         grid-template-rows: auto 1fr auto;
-
-         grid-template-areas: "header"
-                                 "main"
-                                 "footer";
-
-         header { grid-area: header;}
-         main {grid-area:main; text-aligh:center; margin-top: 20px; }
-         footer {grid-area:footer;}
-  */
 }
 @media (min-width: 992px) {
   .features .container {
@@ -369,11 +357,6 @@ h2.title {
 }
 .features .container .features-info .feature-mobile .features-title {
   margin-bottom: 25px;
-  /* @media (min-width: 992px) {
-      font-size:45px;
-
-
-  } */
 }
 .features .container .features-info .feature-mobile .button-yellow {
   position: relative;
@@ -814,30 +797,42 @@ h2.title {
 .project {
   margin-top: 120px;
 }
-.project .container .project-uppe {
+.project .container .project-upp {
   text-align: start;
   margin-bottom: 100px;
 }
 @media (min-width: 992px) {
-  .project .container .project-uppe {
+  .project .container .project-upp {
     text-align: start;
     margin-left: 190px;
     margin-right: 100px;
   }
 }
 @media (min-width: 1200px) {
-  .project .container .project-uppe {
+  .project .container .project-upp {
     text-align: center;
     margin-left: auto;
   }
 }
-.project .container .project-uppe .red-text {
+.project .container .project-upp .red-text {
   margin-bottom: 33px;
 }
 .project .container .project-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 30px;
+  /* Hans mönster -->  display: grid;
+         grid-template-columns: 1fr;
+         grid-template-rows: auto 1fr auto;
+
+         grid-template-areas: "header"
+                                 "main"
+                                 "footer";
+
+         header { grid-area: header;}
+         main {grid-area:main; text-aligh:center; margin-top: 20px; }
+         footer {grid-area:footer;}
+  */
 }
 @media (min-width: 768px) {
   .project .container .project-grid {
@@ -892,4 +887,94 @@ h2.title {
   .project .container .project-btn .button-black {
     width: auto;
   }
+}
+
+.meet-our-team {
+  background-color: #F9D783;
+}
+.meet-our-team .container {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.meet-our-team .container .meet-team-title {
+  padding-bottom: 90px;
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .meet-team-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.meet-our-team .container .meet-team-title h2 {
+  padding-bottom: 30px;
+}
+.meet-our-team .container .meet-team-title .browse-button {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .meet-team-title .browse-button {
+    display: inline;
+  }
+}
+.meet-our-team .container .meet-team-title .browse-button-mobile {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .meet-our-team .container .meet-team-title .browse-button-mobile {
+    display: inline;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .meet-team-title .browse-button-mobile {
+    display: none;
+  }
+}
+.meet-our-team .container .meet-team-title .browse-button-mobile .button-beige {
+  width: 100%;
+}
+.meet-our-team .container .meet-team-members {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+}
+@media (min-width: 768px) {
+  .meet-our-team .container .meet-team-members {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .meet-our-team .container .meet-team-members {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.meet-our-team .container .meet-team-members .member h3 {
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  font-size: 1.375rem;
+  padding-top: 35px;
+  padding-bottom: 10px;
+}
+.meet-our-team .container .meet-team-members .member p {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgba(25, 25, 25, 0.7);
+}
+.meet-our-team .container .dots {
+  display: flex;
+  justify-content: center;
+}
+.meet-our-team .container .dots span {
+  margin: 0 0.2rem;
+  font-size: 60pt;
+  color: rgba(25, 25, 25, 0.1);
+}
+.meet-our-team .container .dots span:hover {
+  color: #191919;
 }

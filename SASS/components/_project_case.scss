@@ -3,7 +3,7 @@
 
     
     .container{
-        .project-uppe{
+        .project-upp{
 
             text-align: start;
             margin-bottom: 100px;
@@ -33,6 +33,19 @@
                 grid-template-columns: 1fr 1fr;
                                
             }
+
+            /* Hans mönster -->  display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto 1fr auto;
+
+        grid-template-areas: "header"
+                                "main"
+                                "footer";
+
+        header { grid-area: header;}
+        main {grid-area:main; text-aligh:center; margin-top: 20px; }
+        footer {grid-area:footer;}
+ */
 
             article{
                 display: grid;
@@ -94,12 +107,8 @@
                 @media (min-width:992px) {
                     width: auto;   
                 }
-            }
+            }    
 
-          
-
-
-         
-         }
+        }
     }
  } 
