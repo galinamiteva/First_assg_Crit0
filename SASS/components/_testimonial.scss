@@ -1,0 +1,62 @@
+.testimonial{
+    background-color: $colour-yellow-btn;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: -100px; //på Adobe måste ha avstånd !!
+    margin-right: -100px; //på Adobe måste ha avstånd!!
+    background-color: $colour-white;
+    padding: 100px; //uppe 100px  - omöjlig--> 100px auto 
+
+    .title{
+        margin-top: 30px;
+        margin-bottom: 70px;
+    }
+
+    .content-info{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 80px; //Adobe ca 95
+        margin-bottom: 80px;
+
+        .flex-box{
+            .stars{
+                margin-bottom: 25px;
+                i{
+                    color: $colour-red;
+                }
+            }
+
+            p{
+               font-size: 1rem;
+                font-family: $font-inter;
+                font-weight: $font-weight-regular-400;                    
+            }
+
+            .client {
+                display: flex;
+                justify-content: flex-start;
+                align-items: center;
+            }
+
+
+
+        }
+
+
+    }
+       
+
+    
+
+
+
+
+
+
+
+
+
+}

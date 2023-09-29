@@ -978,3 +978,42 @@ h2.title {
 .meet-our-team .container .dots span:hover {
   color: #191919;
 }
+
+.testimonial {
+  background-color: #F9D783;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -100px;
+  margin-right: -100px;
+  background-color: #FFFFFF;
+  padding: 100px;
+}
+.testimonial .title {
+  margin-top: 30px;
+  margin-bottom: 70px;
+}
+.testimonial .content-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 80px;
+  margin-bottom: 80px;
+}
+.testimonial .content-info .flex-box .stars {
+  margin-bottom: 25px;
+}
+.testimonial .content-info .flex-box .stars i {
+  color: #F94D1C;
+}
+.testimonial .content-info .flex-box p {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+.testimonial .content-info .flex-box .client {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
