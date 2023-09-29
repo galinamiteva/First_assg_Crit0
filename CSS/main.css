@@ -885,7 +885,7 @@ h2.title {
 }
 @media (min-width: 992px) {
   .project .container .project-btn .button-black {
-    width: inline;
+    width: auto;
   }
 }
 
@@ -1132,12 +1132,56 @@ h2.title {
 }
 .article .container .article-content {
   display: flex;
-  margin-bottom: 80px;
   flex-direction: column;
-  gap: 15px;
+  gap: 20px;
+  text-align: start;
+}
+@media (min-width: 992px) {
+  .article .container .article-content {
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
 @media (min-width: 1200px) {
   .article .container .article-content {
-    text-align: center;
+    flex-direction: row;
   }
+}
+@media (min-width: 992px) {
+  .article .container .article-content .content-box {
+    width: auto;
+  }
+}
+@media (min-width: 992px) {
+  .article .container .article-content .content-box .article-img img {
+    width: 80%;
+  }
+}
+@media (min-width: 1200px) {
+  .article .container .article-content .content-box .article-img img {
+    width: 100%;
+  }
+}
+.article .container .article-content .content-box .business-text p {
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgba(25, 25, 25, 0.7);
+}
+.article .container .article-content .content-box .business-text h3 {
+  font-size: 1.375rem;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+}
+.article .container .dots {
+  display: flex;
+  justify-content: center;
+}
+.article .container .dots span {
+  margin: 0 0.2rem;
+  font-size: 60pt;
+  color: rgba(25, 25, 25, 0.1);
+}
+.article .container .dots span:hover {
+  color: #191919;
 }
