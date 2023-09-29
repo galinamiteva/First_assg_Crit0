@@ -1,6 +1,7 @@
 .testimonial{
     background-color: $colour-yellow-btn;
     display: flex;
+
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -15,13 +16,30 @@
     }
 
     .content-info{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        gap: 80px; //Adobe ca 95
-        margin-bottom: 80px;
+        display: flex;        
+         margin-bottom: 80px;
+        //flex-direction: column;
+        align-items: center ;
+        text-align: center;
+        gap: 30px;
+
+        @media (max-width:768px) {
+           flex-direction: column;
+            justify-content: space-between;
+            gap: 0px;
+        }
 
         .flex-box{
+
+            @media (min-width:992px) {
+                max-width: 70%;
+                min-width: 300px;
+            }
+
+            @media (min-width:1200px) {
+                max-width: 100%;
+                min-width: 300px;
+            }
             .stars{
                 margin-bottom: 25px;
                 i{
@@ -33,12 +51,43 @@
                font-size: 1rem;
                 font-family: $font-inter;
                 font-weight: $font-weight-regular-400;                    
-            }
+            } 
 
             .client {
                 display: flex;
                 justify-content: flex-start;
                 align-items: center;
+                margin-top:30px;
+                
+                .client-img{
+                    height: 70px;
+                    width: 70px;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    img{
+                        max-width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .client-info{
+                    margin-left: 15px;
+                    
+                   h3{
+                    font-size: 1.375rem;
+                    font-family: $font-dm-sants;
+                    font-weight: $font-weight-bold-700;
+                   }
+
+                }
+ 
+
+
+
             }
 
 
