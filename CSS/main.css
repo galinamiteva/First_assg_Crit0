@@ -4,6 +4,7 @@
 *,
 *::before,
 *::after {
+  margin: 0;
   box-sizing: border-box;
 }
 
@@ -985,8 +986,8 @@ h2.title {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: -100px;
-  margin-right: -100px;
+  margin-left: -90px;
+  margin-right: -90px;
   background-color: #FFFFFF;
   padding: 100px;
 }
@@ -1184,4 +1185,62 @@ h2.title {
 }
 .article .container .dots span:hover {
   color: #191919;
+}
+
+.news-form {
+  margin-top: 160px;
+  background-color: #F0EFE9;
+  padding-top: 115px;
+  padding-bottom: 115px;
+  position: relative;
+}
+.news-form img {
+  position: absolute;
+  right: 0;
+  bottom: 50px;
+  display: none;
+}
+@media (min-width: 1200px) {
+  .news-form img {
+    display: inline-block;
+  }
+}
+.news-form .container {
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.news-form .container h2 {
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .news-form .container {
+    display: flex;
+  }
+}
+.news-form .container form .signup-input {
+  border: none;
+  padding: 15px 50px 10px 30px;
+  width: 100%;
+  border-radius: 25px;
+  margin-right: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+@media (min-width: 992px) {
+  .news-form .container form .signup-input {
+    padding: 15px 50px 10px 30px;
+    width: auto;
+  }
+}
+.news-form .container form .button-yellow {
+  text-align: center;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .news-form .container form .button-yellow {
+    padding: 15px 30px 10px;
+    width: auto;
+    display: inline-block;
+  }
 }
