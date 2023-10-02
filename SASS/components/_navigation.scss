@@ -105,17 +105,14 @@
                 font-size: 1rem;
                 display: flex;
                 align-items: center;
-                
-
+               
 
                 a{
                     margin: 0 32px 0 0;
                     position: relative;
                     display: inline-block;
 
-                    &.active{
-                        font-weight: $font-weight-light-300; // underline!
-                    }
+                    
 
                     &.active::after,
                     &:hover::after{
