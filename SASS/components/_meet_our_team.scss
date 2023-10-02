@@ -3,8 +3,12 @@
     background-color: $colour-yellow-btn;
 
     .container{
-        padding-top: 120px;
+        padding-top: 50px; //40px
         padding-bottom: 120px;
+
+        @media (min-width:992px) {
+            padding-top: 120px;
+        }
 
         .meet-team-title{
             
@@ -29,24 +33,29 @@
                     display: inline;  
                 } 
             }
-            .browse-button-mobile{
 
+            .browse-button-mobile{
                 display: flex;
-                justify-content: start;
+                justify-content: flex-start; 
+               
                 align-items: center;
                 text-align: center; 
-                
-                    @media (min-width:768px) {
-                        display: inline;  
-                    }
+                width: 100%;                   
+                     
 
                     @media (min-width:1200px) {
-                        display: none;  
+                        display: none; 
+                        width: auto;
                     } 
 
                     .button-beige{
-                        width: 100%;                   
-                       
+                        
+                        width: 100%; 
+                                          
+                        @media (min-width: 992px) {
+                            width: auto;
+                            display: block;  
+                        }
                     }  
             }       
           
@@ -67,6 +76,7 @@
                 grid-template-columns: repeat(4, 1fr);
                                
             }
+         
 
             .member{
                 h3{

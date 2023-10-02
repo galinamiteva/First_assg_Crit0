@@ -137,7 +137,7 @@
                 .right-arrow{
                     display: flex;
                     align-items: center;
-                    justify-content: end;
+                    justify-content: flex-end;
 
                     a{
                         background-color: $colour-black-op90;
@@ -165,14 +165,16 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            padding-bottom: 120px;           
-           
+            padding-bottom: 120px; 
+            
 
                 .button-beige{
+                    z-index: 3;  
                     width: 100%;
 
                     @media (min-width: 992px) { 
-                        width: auto;                   
+                        width: auto;
+                                           
                      }
                 }            
         }
