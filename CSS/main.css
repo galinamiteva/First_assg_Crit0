@@ -987,22 +987,28 @@ h2.title {
   margin-left: -90px;
   margin-right: -90px;
   background-color: #FFFFFF;
-  padding: 100px;
+  padding: 100px 72px;
 }
 .testimonial .title {
   margin-top: 30px;
   margin-bottom: 70px;
 }
 .testimonial .container {
+  max-width: 1224px;
   display: flex;
   margin-bottom: 80px;
   align-items: center;
   text-align: center;
   gap: 65px;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .testimonial .container {
     gap: 30px;
+  }
+}
+@media (max-width: 992px) {
+  .testimonial .container {
+    gap: 16px;
   }
 }
 @media (max-width: 768px) {
@@ -1012,11 +1018,17 @@ h2.title {
     justify-content: space-between;
     gap: 40px;
   }
+  .testimonial .container:nth-child(3) {
+    gap: 0;
+  }
+}
+.testimonial .container .flex-box {
+  /* &:nth-child(5){
+      display: none; */
 }
 @media (min-width: 992px) {
   .testimonial .container .flex-box {
-    max-width: 70%;
-    min-width: 300px;
+    max-width: 300px;
   }
 }
 @media (min-width: 1200px) {
