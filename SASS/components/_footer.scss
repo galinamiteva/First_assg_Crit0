@@ -61,7 +61,7 @@ footer {
                 flex-direction: column;
                 gap: 20px;
 
-                /* &:nth-child(4), */ &:nth-child(5){
+                 &:nth-child(5){
                     display: none;
                    
                     @media (min-width: 992px) {
@@ -88,7 +88,7 @@ footer {
     }
 
     .footer-down {
-        border-top: 1px solid $colour-footer-border;
+        border-top: 1px solid $colour-blur;
 
 
         .container{  

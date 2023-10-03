@@ -1335,7 +1335,6 @@ footer .footer-upp .container .contact-box {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  /* &:nth-child(4), */
 }
 footer .footer-upp .container .contact-box:nth-child(5) {
   display: none;
@@ -1442,4 +1441,66 @@ footer .footer-down .container .social-media {
   font-size: 56px;
   font-weight: 700;
   font-family: "DM sans", sans-serif;
+}
+
+.company-contact {
+  margin-top: 120px;
+  margin-bottom: 80px;
+}
+.company-contact .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+@media (min-width: 992px) {
+  .company-contact .container {
+    flex-direction: row;
+  }
+}
+.company-contact .container .box-item {
+  border: 1px solid rgba(25, 25, 25, 0.1);
+  display: flex;
+  width: 420px;
+  justify-content: center;
+  gap: 30px;
+  padding: 50px 0;
+}
+.company-contact .container .box-item .icon {
+  border-radius: 50%;
+  border: 1px solid #707070;
+  background-color: #191919;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .company-contact .container .box-item .icon {
+    height: 60px;
+    width: 60px;
+  }
+}
+.company-contact .container .box-item .icon i {
+  color: #FFFFFF;
+  font-size: 15px;
+}
+@media (min-width: 768px) {
+  .company-contact .container .box-item .icon i {
+    font-size: 20px;
+  }
+}
+.company-contact .container .box-item .text-content h3 {
+  font-size: 22px;
+  font-family: "DM sans", sans-serif;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.company-contact .container .box-item .text-content p {
+  font-size: 1.125rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  color: rgba(25, 25, 25, 0.8);
 }
