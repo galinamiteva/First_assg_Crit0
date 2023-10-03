@@ -97,18 +97,12 @@
                 }
 
             .box{
-                //position: relative;
+                
                 padding: 90px 30px 45px;
                 transition: all 0.3s ease-in-out;  
                 background-color: $colour-white;
              
-                /* little-line{
-                    position: absolute;
-
-                } */
-                // span{
-                //     width: 15px;
-                // }
+              
 
 
                 &::after{
@@ -167,6 +161,15 @@
             align-items: center;
             padding-bottom: 120px; 
             
+            @media (min-width:992px) {
+                justify-content: flex-start;
+                margin-left: 190px;
+            }
+
+            @media (min-width:1200px) {
+                justify-content: center;
+                
+            }
 
                 .button-beige{
                     z-index: 3;  

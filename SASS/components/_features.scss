@@ -37,17 +37,17 @@
 
             .feature-mobile{               
                
-                position: relative;             
+                      
                 
 
                 @media (min-width: 992px) {
-                    top:40px;
+                    
                     padding-right: 80px;
     
                 }
     
                 @media (min-width: 1200px) {
-                    top:40px;
+                    padding-right: 0;
     
                 }
 
@@ -60,7 +60,8 @@
                 
                 .button-yellow{
                     position:relative;
-                    top:90px;
+                    //top:90px;
+                    top:22px;
                     display: flex;
                     justify-content: center;
                     align-items: center;              
@@ -73,6 +74,8 @@
                             width: auto;
                             display: inline-block;
                         }
+
+                        
                 }    
             }
                   
