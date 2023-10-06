@@ -74,11 +74,26 @@
             }
             @media (min-width:1200px) {
                 grid-template-columns: repeat(4, 1fr);
-                               
+               // max-width: 290px;               
             }
          
 
             .member{
+
+                img{
+                    @media (min-width:1200px) {
+                        object-fit: cover;
+                        width: 271px;
+                        height: 371px;            
+                    }
+
+                    @media (min-width:1440px) {
+                        
+                        width: 308px;
+                        height: 420px;            
+                    }
+                }
+
                 h3{
                     font-family: $font-dm-sants;
                     font-weight: $font-weight-bold-700;
